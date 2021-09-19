@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Submission Form</title>
+
+    <!-- Stylesheet link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="introBox">
+            <h1> <a href="https://developerdays.tech"> Developer Days </a></h1>
+            <h2>Submit your week 3 Task of <span>WEB DEVELOPMENT TRACK</span></h2>
+            <p>You have to submit</p>
+            <p>In this challenge, the main task is to take the details of candidate with assignment submission of the candidate which may be in the form of link/ pdf, etc. And after taking the details, it need to be stored in the database(which can be relational/non-relational database, according to your preference). You are free to include more things to the submission.
+            </p>
+            <h4>Judging criteria</h4>
+            <ul>
+                <li>Running : 2 points</li>
+                <li>Originality : 3 points</li>
+                <li>Functionality : 3 points</li>
+                <li>Innovation : 2 points</li>
+                <li>Responsiveness : 1 points</li>
+            </ul>
+            <p>Last Date to submit : <span>21st September, 11:59 PM IST</span></p>
+        </div>
+        <form action="/" method="POST">
+            <div class="field">
+                <label for="email">Email<span>*</span></label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="field">
+                <label for="fullname">Full Name<span>*</span></label>
+                <input type="text" id="fullname" name="fullname">
+            </div>
+    
+            <div class="field">
+                <label for="phone">Phone<span>*</span></label>
+                <input type="number" id="phone" name="phone">
+            </div>
+    
+            <div class="field">
+                <label for="discordname">Discord user name<span>*</span></label>
+                <input type="text" id="discordname" name="discordname">
+            </div>
+            
+            <div class="field">
+                <label for="challenge">Write your Task Name<span>*</span></label>
+                <input type="text" id="challenge" name="challenge">
+            </div>
+            
+            <div class="field">
+                <label for="link">Submit your github repo link here <span>*</span></label>
+                <input type="url" id="link" name="link">
+            </div>
+    
+            <div class="field">
+                <h1>I understand I have to my submit Original Work<span>*</span></h1>
+                <div class="radio">
+                    <input type="checkbox" id="submit" name="submit" value="true"> 
+                    <label for="original">YES</label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+
+        <form action="/show" method="GET" class="showbox">
+            <button type="submit" class="showbtn">Click Me to see previous Submission Deatils</button>
+        </form>
+    </div>
+</body>
+</html>

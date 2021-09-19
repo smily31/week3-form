@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgb(77, 77, 245);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(#159957, #155799);
+    
+    .introBox{
+        width: 60%;
+        text-align: center;
+        background: linear-gradient(rgb(196, 255, 196),rgb(215, 253, 250));
+        padding: 15px;
+        border: 1px solid rgb(182, 182, 182);
+        border-radius: 20px;
+        margin: 15px;
+        
+        h1{
+            a{
+                text-decoration: none;
+                color: rgb(241, 45, 120);
+            }
+            margin: 10px;
+        }
+
+        // h2{
+        //     span{
+        //         color: rgb(248, 122, 76);
+        //     }
+        //     margin: 10px;
+        // }
+
+        p{
+            font-size: 18px;
+            span{
+                color: rgb(250, 115, 115);
+            }
+        }
+
+        h4{
+            margin: 10px;
+            // text-align: left;
+        }
+
+        ul{
+            // align-items: left;
+            li{
+                list-style: none;
+            }
+        }
+    }
+    
+    form{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .field{
+            width: 100%;
+            text-align: center;
+            background-color: rgb(215, 253, 250);
+            padding: 20px;
+            margin: 20px;
+            border: 1px solid rgb(182, 182, 182);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+    
+            label{
+                margin:  10px 10px 10px 0px ;
+                font-weight: bold;
+                span{
+                    color: red;
+                }
+            }
+            input{
+                height: 30px;
+                padding-left: 5px;
+            }
+    
+            h1{
+                font-size: 16px;
+                margin:  10px 10px 10px 0px ;
+                span{
+                    color: red;
+                }
+            }
+    
+            .radio{
+                label{
+                    font-weight: 100;
+                }
+                input{
+                    height: 12px;
+                }
+            }
+        }
+
+        .btn{
+            width: 200px;
+            height: 40px;
+            align-items: center;
+            font-weight: 900;
+            font-size: 20px;
+            border: 2px solid orangered;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            transition: all 0.5s;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: rgb(250, 205, 123);
+        }
+    }
+
+    .showbox{
+        .showbtn{
+            width:auto;
+            padding: 10px;
+            margin:20px 0px ;
+            height: 50px;
+            border: 2px solid red;
+            border-radius: 50px;
+            font-weight: 900;
+            font-size: 20px;
+            transition: all 0.5s;
+        }
+
+        .showbtn:hover{
+            cursor: pointer;
+            background-color: rgb(248, 144, 144);
+        }
+    }
+}

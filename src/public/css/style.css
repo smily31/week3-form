@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #4d4df5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(#159957), to(#155799));
+  background: linear-gradient(#159957, #155799);
+}
+
+.container .introBox {
+  width: 60%;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#c4ffc4), to(#d7fdfa));
+  background: linear-gradient(#c4ffc4, #d7fdfa);
+  padding: 15px;
+  border: 1px solid #b6b6b6;
+  border-radius: 20px;
+  margin: 15px;
+}
+
+.container .introBox h1 {
+  margin: 10px;
+}
+
+.container .introBox h1 a {
+  text-decoration: none;
+  color: #f12d78;
+}
+
+.container .introBox p {
+  font-size: 18px;
+}
+
+.container .introBox p span {
+  color: #fa7373;
+}
+
+.container .introBox h4 {
+  margin: 10px;
+}
+
+.container .introBox ul li {
+  list-style: none;
+}
+
+.container form {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container form .field {
+  width: 100%;
+  text-align: center;
+  background-color: #d7fdfa;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #b6b6b6;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+
+.container form .field label {
+  margin: 10px 10px 10px 0px;
+  font-weight: bold;
+}
+
+.container form .field label span {
+  color: red;
+}
+
+.container form .field input {
+  height: 30px;
+  padding-left: 5px;
+}
+
+.container form .field h1 {
+  font-size: 16px;
+  margin: 10px 10px 10px 0px;
+}
+
+.container form .field h1 span {
+  color: red;
+}
+
+.container form .field .radio label {
+  font-weight: 100;
+}
+
+.container form .field .radio input {
+  height: 12px;
+}
+
+.container form .btn {
+  width: 200px;
+  height: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 900;
+  font-size: 20px;
+  border: 2px solid orangered;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.container form .btn:hover {
+  background-color: #facd7b;
+}
+
+.container .showbox .showbtn {
+  width: auto;
+  padding: 10px;
+  margin: 20px 0px;
+  height: 50px;
+  border: 2px solid red;
+  border-radius: 50px;
+  font-weight: 900;
+  font-size: 20px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.container .showbox .showbtn:hover {
+  cursor: pointer;
+  background-color: #f89090;
+}
+/*# sourceMappingURL=style.css.map */

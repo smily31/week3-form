@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#159957), to(#155799));
+  background: linear-gradient(#159957, #155799);
+  width: 100%;
+  height: 100vh;
+}
+
+.container h1 {
+  margin: 10px;
+  color: azure;
+}
+
+.container .showbox {
+  width: 95vw;
+  height: 100%;
+}
+
+.container .showbox table {
+  -webkit-box-shadow: 2px 2px 14px whitesmoke;
+          box-shadow: 2px 2px 14px whitesmoke;
+  text-align: center;
+  width: 100%;
+  border: 2px solid wheat;
+  border-collapse: collapse;
+  color: white;
+  text-shadow: 2px 1px #464545;
+}
+
+.container .showbox table tr th {
+  color: aqua;
+  width: 16.4%;
+  height: 50px;
+  border: 2px solid wheat;
+}
+
+.container .showbox table tr td {
+  border: 2px solid wheat;
+  height: 40px;
+}
+/*# sourceMappingURL=show.css.map */
