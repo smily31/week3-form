@@ -35,6 +35,12 @@
   margin: 15px;
 }
 
+@media (max-width: 768px) {
+  .container .introBox {
+    width: 86%;
+  }
+}
+
 .container .introBox h1 {
   margin: 10px;
 }
@@ -72,6 +78,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (max-width: 768px) {
+  .container form {
+    width: 86%;
+  }
 }
 
 .container form .field {
@@ -150,10 +162,17 @@
   height: 50px;
   border: 2px solid red;
   border-radius: 50px;
-  font-weight: 900;
-  font-size: 20px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .container .showbox .showbtn {
+    font-weight: 700;
+    font-size: 15px;
+  }
 }
 
 .container .showbox .showbtn:hover {

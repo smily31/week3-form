@@ -20,9 +20,21 @@
   height: 100vh;
 }
 
+@media (max-width: 768px) {
+  .container {
+    width: auto;
+  }
+}
+
 .container h1 {
   margin: 10px;
   color: azure;
+}
+
+@media (max-width: 768px) {
+  .container h1 {
+    text-align: center;
+  }
 }
 
 .container .showbox {
@@ -51,5 +63,11 @@
 .container .showbox table tr td {
   border: 2px solid wheat;
   height: 40px;
+}
+
+@media (max-width: 768px) {
+  .container .showbox table tr td {
+    height: 60px;
+  }
 }
 /*# sourceMappingURL=show.css.map */
