@@ -5,7 +5,8 @@ const mongoose = require("mongoose");
 
 mongoose.connect( process.env.mongouri , {
     useNewUrlParser : true, 
-    useUnifiedTopology : true
+    useUnifiedTopology : true,
+    useCreateIndex: true
 }).then(() => {
     console.log("connection is successful");
 }).catch((e) => {

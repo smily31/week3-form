@@ -32,7 +32,7 @@ app.post("/" , async(req,res) => {
     
         const datafilled = await data.save();
         
-        res.status(201).redirect("/");
+        res.redirect("/");
     }catch(error){
         res.status(400).send(error);
     }
