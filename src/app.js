@@ -30,7 +30,12 @@ app.post("/" , async(req,res) => {
             submit : req.body.submit
         })
     
-        const datafilled = await data.save();
+        const datafilled = await data.save()
+        .then(() => {
+        console.log("successfully added data!");
+        res.redirect("/");
+        })
+
         
         res.redirect("/");
     }catch(error){
